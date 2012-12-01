@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/javassist-3.11.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/mysql-connector-java-5.1.5-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/Administrateur.STANDARD/workspace/premierhibernate/lib/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package ="com.isima.hibernate.persistance">
+<class name="Enseignant" table="T_Enseignant">
+
+<id  name="ncin" type="string" column="Ens_ncin">
+</id>
+
+<property name="nom" type="string" column="Ens_nom"/>
+
+</class></hibernate-mapping>

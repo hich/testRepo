@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.isima.hibernate.persistance">
+
+<class name="Evennement" table="T_Evennement">
+
+<id name="id" type="int" column="Even_ID">
+<generator class="native"/>
+</id>
+
+<property name="titre" type="string" column="EVEN_TITRE"/>  
+<property name="date" type="timestamp" column="EVEN_DATE"/> 
+
+<many-to-one name="ecole" column="FK_ECOLE" cascade="all"></many-to-one>
+</class>
+
+</hibernate-mapping>

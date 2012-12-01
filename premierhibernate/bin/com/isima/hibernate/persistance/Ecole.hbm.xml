@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping package ="com.isima.hibernate.persistance">
+<class name="Ecole" table="T_ECOLE">
+
+<id  name="num" type="int" column="Ecole_num">
+<generator class="native"/>
+</id>
+
+<property name="nom" type="string" column="Ecole_nom"/>
+<property name="adresse" type="string" column="Ecole_adresse"/>
+
+<property name="nombreSalles" type="int" column="Ecole_nb_salles"/>
+
+<bag name="enseignants" cascade="all">
+<key column="FK_Ecole"/>
+<one-to-many class="Enseignant" ></one-to-many>
+</bag>
+
+<bag name="etudiants" cascade="all">
+<key column="FK_ECOLE"></key>
+<one-to-many class="Etudiant"/>
+</bag>
+
+<bag name="fournisseurs" table="ECOLE_FOURNISSEUR" cascade="all">
+<key column="FK_ECOLE"></key>
+<many-to-many column="FK_FOURNISSEUR" class="Fournisseur"></many-to-many>
+</bag>
+
+<bag name="actionnaires" table="ECOLE_ACTIONNAIRE" cascade="all">
+<key column="FK_ECOLE"></key>
+<many-to-many column="FK_ACTIONNAIRE" class="Actionnaire"></many-to-many>
+</bag>
+
+</class></hibernate-mapping>
